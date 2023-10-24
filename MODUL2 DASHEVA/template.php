@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,15 +29,7 @@
                         <button type="submit" class="btn btn-primary mb-3 mt-3 w-100" name="hitung">Hitung BMI</button>
                     </form>
 
-                    <!--  **********************  4  **************************     -->
-                    <!-- Hasilnya perhitungan BMI taruh di sini yaaa!! 😊 -->
-                    <!-- silakan taruh code kalian di bawah -->
                     <?php
-
-                    // **********************  1  ************************** 
-                    // ========== tangkap nilai tinggi_badan dan berat_badan yang ada pada form html
-                    // silakan taruh code kalian di bawah
-
                     if (isset($_POST['hitung'])){
                         $tinggi = $_POST['tinggi_badan'];
                         $berat = $_POST['berat_badan'];
@@ -60,45 +50,8 @@
                                 echo 'Obese';
                             }
                         }
-                        // hitung
-
-
                     }
-                    // **********************  1  ************************** 
-
-
-                    // **********************  2  ************************** 
-                    // ========== buatkan sebuah perkondisian di mana 
-                    // tinggi_badan atau $berat_badan tidak boleh kosong nilainya, kalau kosong buatkanlah pesan error
-                    // silakan taruh code kalian di bawah
-
-
-                    // **********************  2  ************************** 
-
-
-                    // **********************  3  ************************** 
-                    // ========== buatkanlah perkondisian di mana Jika kesalahan Error-nya "empty", 
-                    // masukkan perhitungan BMI sesuai dengan rumus yang tertera pada jurnal
-                    // silakan taruh code kalian di bawah
-
-
-                    // **********************  3  ************************** 
-
-
-
                     ?>
-                    
-                    <!--  **********************  4  **************************     -->
-
-
-
-                    <!--  **********************  5  **************************     -->
-                    <!-- Hasil pesan error nya taruh di sini yaaa!! 😊  -->
-                    <!-- silakan taruh code kalian di bawah -->
-                    
-
-                    <!--  **********************  5  **************************     -->
-
 
                 </div>
             </div>
