@@ -48,7 +48,7 @@
                                     <input type="number" class="form-control" name="harga_mobil" id="harga_mobil" value="<?= $mobil["harga_mobil"]?>"disabled>
                                     <label for="harga_mobil">Harga Mobil </label>
                                 </div>
-                                <a name="update" id="update" href="form_update_mobil.php?id=<?php echo $id ?>" class="btn btn-warning mb-3 mt-3 w-100">Edit</a>
+                                <a name="form_update_mobil.php" id="update" href="form_update_mobil.php?id=<?php echo $id ?>" class="btn btn-warning mb-3 mt-3 w-100">Edit</a>
                                 <a name="delete" id="delete" href="delete.php?id=<?php echo $id ?>" class="btn btn-danger mb-3 mt-3 w-100">Delete</a>
                             </form>
                         </div>
