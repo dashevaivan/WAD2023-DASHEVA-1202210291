@@ -10,7 +10,7 @@ class Showroom extends Model
     use HasFactory;
 
     public $table = 'showroom_mobil';
-
+    public $timestamps = false;
     protected $fillable = [
         'nama_mobil',
         'brand_mobil',
